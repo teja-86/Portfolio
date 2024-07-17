@@ -14,11 +14,11 @@ const projects = [
   {
     title: "Portfolio Website ✨",
     thumbnail: portfolio_thumbnail,
-    techStack: ["Next.js", "TailwindCSS", "TypeScript"],
+    techStack: ["React.js", "TailwindCSS", "TypeScript"],
     description:
       "A personal portfolio showcasing my projects and skills, providing an interactive platform for visitors to learn about my experience and expertise. This project demonstrates my proficiency in building complex web applications, implementing responsive designs, and ensuring a smooth user experience.  It underscores my commitment to leveraging technology to provide valuable and engaging experiences for users. This project highlights my ability to create full-stack applications. It is very helpful.",
-    github: "https://github.com/teja-86",
-    live: "",
+    github: "https://github.com/teja-86/Portfolio",
+    live: "https://portfolio-wbod.onrender.com/",
   },
   {
     title: "TweetHub 🌐",
