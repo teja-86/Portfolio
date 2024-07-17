@@ -1,0 +1,42 @@
+@import "../styles/clash-grotesk.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* @apply bg-gradient-to-r from-black to-gray-900 text-white; */
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  .clash-grotesk {
+    font-family: "ClashGrotesk-Variable", sans-serif;
+  }
+}
+
+.blue__gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(188, 165, 255, 0) 0%,
+    #49459bbf 100%
+  );
+  /* background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%); */
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
