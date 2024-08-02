@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+
+Welcome to my portfolio website! This project is designed to showcase my skills, experiences, and projects. It's built using **React.js** for a dynamic and interactive user experience and styled with **Tailwind CSS** for a clean, responsive design.
+
+## Features
+
+- **Responsive Design:** The site is fully responsive, adapting seamlessly to various screen sizes.
+- **Interactive Components:** React.js is used to build interactive components that enhance user engagement.
+- **Smooth Navigation:** Modern layout with smooth transitions and easy navigation.
+- **Project Showcase:** Highlights various projects with descriptions, technologies used, and live demo links.
+- **Contact Form:** Allows visitors to get in touch directly through the website.
+
+## Technologies Used
+
+- **React.js:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for custom designs.
+- **JavaScript:** For interactivity and dynamic content.
+- **HTML5 & CSS3:** Core technologies for web development.
 
 ## Getting Started
 
@@ -18,16 +35,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
