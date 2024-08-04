@@ -22,6 +22,8 @@ import javaLogo from "../../public/assets/Java-Logo.png";
 import htmlLogo from "../../public/assets/html.png";
 import cssLogo from "../../public/assets/css.png";
 import gitHubLogo from "../../public/assets/github.png";
+import awsLogo from "../../public/assets/aws-amazon-web-services.jpg"
+import cicdLogo from "../../public/assets/cicdLogo.png";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 import art from "../../public/assets/art.webp";
@@ -34,6 +36,7 @@ import blog2 from "../../public/assets/blog2.webp";
 import Blog3 from "../../public/assets/Blog3.webp";
 import { BlogsCards } from "./BlogsCards";
 import { ServiceCards } from "./ServiceCards";
+
 
 interface LazyImageProps {
   src: StaticImageData;
@@ -98,6 +101,8 @@ const AboutPage: React.FC = () => {
             <TechStackButton title="GitHub" logo={gitHubLogo} />
             <TechStackButton title="NPM" logo={npmLogo}/>
             <TechStackButton title="Postman" logo={PostmanLogo} />
+            <TechStackButton title="AWS" logo={awsLogo}/>
+            <TechStackButton title="CI/CD" logo={cicdLogo} />
             
           </div>
           <br />

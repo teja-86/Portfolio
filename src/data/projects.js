@@ -9,6 +9,7 @@ import portfolio_thumbnail from "../../public/assets/portfolio_thumbnail.webp";
 import thumbnail_4 from "../../public/assets/AI Text Summarizer Project.png";
 import thumbnail_5 from "../../public/assets/RoyalTrips Project.jpg";
 import gpa_thumbnail from "../../public/assets/gpa_thumbnail.webp";
+import thumbnail_6 from '../../public/assets/NexusChat Project.jpg'
 
 const projects = [
   {
@@ -28,6 +29,15 @@ const projects = [
       "TweetHub is a full-stack social media web application inspired by Twitter. It allows users to share thoughts, follow other users, and interact with posts. This project demonstrates proficiency in both frontend and backend development, API integration, and state management. This project is awesome and also a very user interface.",
     github: "https://github.com/teja-86/TweetHub",
     live: "https://tweethub-adle.onrender.com/",
+  },
+  {
+    title: "NexusChat 💬",
+    thumbnail: thumbnail_6,
+    techStack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Socket.io", "Zustand", "Multer", "Git", "GitHub", "Problem Solving"],
+    description:
+      "NexusChat Application, a robust and scalable chat platform built using the MERN stack and powered by Socket.io for real-time communication. It enables users to engage in dynamic, real-time conversations with messages, group chats and user presence notifications.",
+    github: "https://github.com/teja-86/NexusChat",
+    live: "https://nexuschat-1.onrender.com/",
   },
   {
     title: "CareerConnect Pro 👨🏻‍💻",

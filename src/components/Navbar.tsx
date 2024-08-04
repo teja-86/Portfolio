@@ -35,6 +35,9 @@ const Navbar = ({ className }: { className?: string }) => {
               <HoveredLink href="https://tweethub-adle.onrender.com/">
                 TweetHub
               </HoveredLink>
+              <HoveredLink href="https://nexuschat-1.onrender.com/">
+                NexusChat
+              </HoveredLink>
               <HoveredLink href="https://github.com/teja-86/CareerConnect-Pro">
                 CareerConnect Pro
               </HoveredLink>
