@@ -17,6 +17,21 @@ Welcome to my portfolio website! This project is designed to showcase my skills,
 - **JavaScript:** For interactivity and dynamic content.
 - **HTML5 & CSS3:** Core technologies for web development.
 
+## Installation
+
+Follow these steps to clone and set up the project locally.
+
+### Clone the Repository
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command:
+
+```bash
+git clone https://github.com/teja-86/Portfolio.git
+
+cd Portfolio
+
 ## Getting Started
 
 First, run the development server:
