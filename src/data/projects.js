@@ -1,26 +1,12 @@
-import chat_thumbnail from "../../public/assets/chat_thumbnail.webp";
 import crm_thumbnail from "../../public/assets/TweetHub Project .jpg";
 import crmlanding_thumbnail from "../../public/assets/CareerConnectPro.jpg";
-import financegpt_thumbnail from "../../public/assets/financegpt_thumbnail.webp";
-import gdsc_thumbnail from "../../public/assets/gdsc_thumbnail.webp";
-import gym_thumbnail from "../../public/assets/gym_thumbnail.webp";
-import movieHub_thmbnail from "../../public/assets/movieHub_thmbnail.webp";
 import portfolio_thumbnail from "../../public/assets/portfolio_thumbnail.webp";
 import thumbnail_4 from "../../public/assets/AI Text Summarizer Project.png";
 import thumbnail_5 from "../../public/assets/RoyalTrips Project.jpg";
-import gpa_thumbnail from "../../public/assets/gpa_thumbnail.webp";
-import thumbnail_6 from '../../public/assets/NexusChat Project.jpg'
+import thumbnail_6 from '../../public/assets/NexusChat Project.jpg';
 
 const projects = [
-  {
-    title: "Portfolio Website ✨",
-    thumbnail: portfolio_thumbnail,
-    techStack: ["React.js", "TailwindCSS", "TypeScript"],
-    description:
-      "A personal portfolio showcasing my projects and skills, providing an interactive platform for visitors to learn about my experience and expertise. This project demonstrates my proficiency in building complex web applications, implementing responsive designs, and ensuring a smooth user experience.  It underscores my commitment to leveraging technology to provide valuable and engaging experiences for users. This project highlights my ability to create full-stack applications. It is very helpful.",
-    github: "https://github.com/teja-86/Portfolio",
-    live: "https://portfolio-wbod.onrender.com/",
-  },
+  
   {
     title: "TweetHub 🌐",
     thumbnail: crm_thumbnail,
@@ -58,11 +44,20 @@ const projects = [
     live: "",
   },
   {
+    title: "Portfolio Website ✨",
+    thumbnail: portfolio_thumbnail,
+    techStack: ["Next.js", "React.js", "TailwindCSS", "TypeScript"],
+    description:
+      "A personal portfolio showcasing my projects and skills, providing an interactive platform for visitors to learn about my experience and expertise. This project demonstrates my proficiency in building complex web applications, implementing responsive designs, and ensuring a smooth user experience. It underscores my commitment to leveraging tech.",
+    github: "https://github.com/teja-86/Portfolio",
+    live: "https://portfolio-wbod.onrender.com/",
+  },
+  {
     title: "ROYAL Trips ✈️",
     thumbnail: thumbnail_5,
     techStack: ["HTML", "CSS", "JavaScript", "Git", "gitHub", "Web Design"],
     description:
-      "Explore India, a sophisticated tourism website built with JavaScript, HTML, and CSS. This platform offers an interactive map of India, detailed pages for top tourist destinations, high-quality image galleries, user reviews, and advanced search filters. Designed with a responsive and user-centric approach, it ensures seamless navigation across all devices, providing a comprehensive and visually appealing guide to exploring India's rich cultural heritage.",
+      "The RoyalTrips is a dynamic and interactive platform designed to provide users with comprehensive information about various tourist destinations. Built with modern web technologies, this project aims to offer a seamless and engaging user experience for travelers seeking destination guides, travel tips. Enjoy a seamless experience on any device.",
     github: "",
     live: "https://tangerine-figolla-123be9.netlify.app/",
   },

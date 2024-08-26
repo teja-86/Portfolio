@@ -28,10 +28,6 @@ const Navbar = ({ className }: { className?: string }) => {
         <Link href={"#projects"}>
           <MenuItem setActive={setActive} active={active} item="Projects">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="https://github.com/teja-86">
-                Portfolio
-              </HoveredLink>
-
               <HoveredLink href="https://tweethub-adle.onrender.com/">
                 TweetHub
               </HoveredLink>
@@ -43,6 +39,9 @@ const Navbar = ({ className }: { className?: string }) => {
               </HoveredLink>
               <HoveredLink href="https://github.com/teja-86/AI-Text-Summarizer">
                 AI Text Summarizer 
+              </HoveredLink>
+              <HoveredLink href="https://github.com/teja-86">
+                Portfolio
               </HoveredLink>
               <HoveredLink href="https://tangerine-figolla-123be9.netlify.app/">
                 ROYAL Trips

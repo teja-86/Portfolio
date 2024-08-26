@@ -7,7 +7,7 @@ import reactLogo from "../../public/assets/react.png";
 import javascriptLogo from "../../public/assets/javascript.png";
 import tailwindLogo from "../../public/assets/tailwind.png";
 import nodejsLogo from "../../public/assets/nodejs.png";
-import gitLogo from "../../public/assets/git.png";
+import gitLogo from "../../public/assets/git.svg";
 import reduxLogo from "../../public/assets/redux-logo.png"
 import bootstrapLogo from "../../public/assets/images.jpg"
 import expressLogo from "../../public/assets/express.png";
@@ -20,21 +20,17 @@ import typescriptLogo from "../../public/assets/typescript.png";
 import npmLogo from "../../public/assets/npm-logo.png";
 import javaLogo from "../../public/assets/Java-Logo.png";
 import htmlLogo from "../../public/assets/html.png";
+import nextjsLogo from "../../public/assets/nextjs.svg";
 import cssLogo from "../../public/assets/css.png";
 import gitHubLogo from "../../public/assets/github.png";
 import awsLogo from "../../public/assets/aws-amazon-web-services.jpg"
 import cicdLogo from "../../public/assets/cicdLogo.png";
-import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 import art from "../../public/assets/art.webp";
-import art3 from "../../public/assets/art-3.webp";
+import gitlab from "../../public/assets/gitlab.svg";
 import art4 from "../../public/assets/art-4.webp";
 import art6 from "../../public/assets/art-6.webp";
 import art7 from "../../public/assets/art-7.webp";
-import blog1 from "../../public/assets/blog1.webp";
-import blog2 from "../../public/assets/blog2.webp";
-import Blog3 from "../../public/assets/Blog3.webp";
-import { BlogsCards } from "./BlogsCards";
 import { ServiceCards } from "./ServiceCards";
 
 
@@ -75,9 +71,9 @@ const AboutPage: React.FC = () => {
         </div>
         <br />
         <br />
-        <div className="w-[90%] sm:w-[80%] md:w-[80%] xl:w-[60%] my-14 text-2xl z-10">
+        <div className="w-[90%] sm:w-[80%] md:w-[80%] xl:w-[60%] my-14 text-2xl z-10 ">
           Hello, I'm a{" "}
-          <span className="text-green-300">Full-Stack Web Developer</span>, Competitive Coder & MERN Stack developer. Passionate on problem-solving using java. Strong understanding of Data Structures and Algorithms. Curiosity to delve into emerging technologies. Love to build web applications using MERN stack to help people around me.
+          <span className="text-green-300">Competitive Coder & Full-Stack Web Developer (MERN & NextJs)</span>, with expertise in AWS cloud services and CI/CD practices, which enhances my ability to deliver high-performance solutions and streamline development processes. Passionate about problem-solving with Java, I possess a strong understanding of Data Structures and Algorithms. My curiosity drives me to explore emerging technologies, and I am dedicated to building impactful web applications using the MERN stack. Committed to creating innovative solutions, I aim to address real-world challenges and help those around me. 
           <br />
           <br />
           <br />
@@ -97,12 +93,14 @@ const AboutPage: React.FC = () => {
             <TechStackButton title="MongoDB" logo={mongodbLogo} />
             <TechStackButton title="MySQL" logo={mysqlLogo} />
             <TechStackButton title="Mongoose" logo={mongooseLogo} />
+            <TechStackButton title="NextJs" logo={nextjsLogo}/>
             <TechStackButton title="Git" logo={gitLogo} />
             <TechStackButton title="GitHub" logo={gitHubLogo} />
             <TechStackButton title="NPM" logo={npmLogo}/>
             <TechStackButton title="Postman" logo={PostmanLogo} />
             <TechStackButton title="AWS" logo={awsLogo}/>
             <TechStackButton title="CI/CD" logo={cicdLogo} />
+            <TechStackButton title="Gitlab" logo={gitlab}/>
             
           </div>
           <br />
@@ -193,6 +191,11 @@ const AboutPage: React.FC = () => {
             title="Responsive Design"
             description="Designing websites that look and perform equally well on all devices and screen sizes."
             emoji="📲"
+          />
+          <ServiceCards
+            title="Seamless Deployment with CI/CD & AWS"
+            description="Deploying with CI/CD and AWS ensures automated testing and seamless deployment for efficient, reliable software delivery."
+            emoji="🚀"
           />
         </div>
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 left-0 blue__gradient" />

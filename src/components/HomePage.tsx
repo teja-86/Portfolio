@@ -18,6 +18,9 @@ const HomePage: React.FC = () => {
       <div className="p-4">
         <div className="mb-6">
         <span className="mr-4 bg-black text-white border border-[#413d3d] hover:bg-[#7B93FE] text-[14px] hover:text-black hover:duration-300 ease-in transition-all p-1 px-2 rounded-lg cursor-default">
+            Next.js
+          </span>
+        <span className="mr-4 bg-black text-white border border-[#413d3d] hover:bg-[#7B93FE] text-[14px] hover:text-black hover:duration-300 ease-in transition-all p-1 px-2 rounded-lg cursor-default">
             React.js
           </span>
           
@@ -39,7 +42,7 @@ const HomePage: React.FC = () => {
             </span>
           </h1>
           <p className="mt-4 max-w-lg text-[#91a0b3] tracking-tight text-muted-foreground 2xl:text-xl">
-            A Full Stack Web Developer | MERN Stack Specialist | Learning AWS 
+            A Full Stack Web Developer | MERN Stack and NextJs Specialist | AWS | CI/CD 
           </p>
         </div>
         <div className="mt-10">
@@ -60,12 +63,12 @@ const HomePage: React.FC = () => {
       <div
         data-scroll
         data-scroll-speed="-.01"
-        className="mt-14 mx-4 xl:mt-0 canvas-container border border-[#413d3d] rounded-3xl h-[515px] xl:w-[690px] xl:min-w-[690px] overflow-hidden cursor-grabbing"
+        className="mt-14 mx-4 xl:mt-0 canvas-container border border-[#413d3d] rounded-3xl h-[450px] xl:w-[600px] xl:min-w-[600px] overflow-hidden cursor-grabbing"
       >
         <Suspense
           fallback={<span className="text-white text-center">Loading...</span>}
         >
-          <Spline scene="/assets/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" />
         </Suspense>
       </div>
     </section>

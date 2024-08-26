@@ -164,6 +164,7 @@ export const Lid = ({
         <Image
           src={mac1}
           alt="Teja's github"
+          // sizes="100"
           fill
           className="object-contain object-left-top absolute rounded-lg inset-0 h-full w-full"
           loading="lazy"
