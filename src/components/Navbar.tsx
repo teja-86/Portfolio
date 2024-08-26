@@ -40,7 +40,7 @@ const Navbar = ({ className }: { className?: string }) => {
               <HoveredLink href="https://github.com/teja-86/AI-Text-Summarizer">
                 AI Text Summarizer 
               </HoveredLink>
-              <HoveredLink href="https://github.com/teja-86">
+              <HoveredLink href="https://portfolio-ranga-dharma-teja-kuntumallas-projects.vercel.app/">
                 Portfolio
               </HoveredLink>
               <HoveredLink href="https://tangerine-figolla-123be9.netlify.app/">

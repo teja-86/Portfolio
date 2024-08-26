@@ -50,7 +50,7 @@ const projects = [
     description:
       "A personal portfolio showcasing my projects and skills, providing an interactive platform for visitors to learn about my experience and expertise. This project demonstrates my proficiency in building complex web applications, implementing responsive designs, and ensuring a smooth user experience. It underscores my commitment to leveraging tech.",
     github: "https://github.com/teja-86/Portfolio",
-    live: "https://portfolio-wbod.onrender.com/",
+    live: "https://portfolio-ranga-dharma-teja-kuntumallas-projects.vercel.app/",
   },
   {
     title: "ROYAL Trips ✈️",
