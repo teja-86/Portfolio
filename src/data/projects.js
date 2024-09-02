@@ -4,6 +4,7 @@ import portfolio_thumbnail from "../../public/assets/portfolio_thumbnail.webp";
 import thumbnail_4 from "../../public/assets/AI Text Summarizer Project.png";
 import thumbnail_5 from "../../public/assets/RoyalTrips Project.jpg";
 import thumbnail_6 from '../../public/assets/NexusChat Project.jpg';
+import thumbnail_7 from '../../public/assets/Promptopia.jpg';
 
 const projects = [
   
@@ -26,6 +27,15 @@ const projects = [
     live: "https://nexuschat-1.onrender.com/",
   },
   {
+    title: "Promptopia 🤖",
+    thumbnail: thumbnail_7,
+    techStack: ["Next.js","React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git", "GitHub", "Problem Solving"],
+    description:
+      "Promptopia is a cutting-edge Next.js application designed to revolutionize prompt generation and management for AI models. This project leverages the powerful features of Next.js to deliver a seamless and performant user experience, focusing on scalability, maintainability, and developer productivity.",
+    github: "https://github.com/teja-86/Promptopia",
+    live: "https://promptopia-liard-three.vercel.app/",
+  },
+  {
     title: "CareerConnect Pro 👨🏻‍💻",
     thumbnail: crmlanding_thumbnail,
     techStack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Firebase", "REST APIs", "Git", "GitHub", "Problem Solving"],
@@ -46,7 +56,7 @@ const projects = [
   {
     title: "Portfolio Website ✨",
     thumbnail: portfolio_thumbnail,
-    techStack: ["Next.js", "React.js", "TailwindCSS", "TypeScript"],
+    techStack: ["Next.js", "React.js", "TailwindCSS", "TypeScript", "UI Design", "Git", "GitHub", "Problem Solving"],
     description:
       "A personal portfolio showcasing my projects and skills, providing an interactive platform for visitors to learn about my experience and expertise. This project demonstrates my proficiency in building complex web applications, implementing responsive designs, and ensuring a smooth user experience. It underscores my commitment to leveraging tech.",
     github: "https://github.com/teja-86/Portfolio",

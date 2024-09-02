@@ -34,6 +34,9 @@ const Navbar = ({ className }: { className?: string }) => {
               <HoveredLink href="https://nexuschat-1.onrender.com/">
                 NexusChat
               </HoveredLink>
+              <HoveredLink href="https://promptopia-liard-three.vercel.app/">
+                Promptopia
+              </HoveredLink>
               <HoveredLink href="https://github.com/teja-86/CareerConnect-Pro">
                 CareerConnect Pro
               </HoveredLink>

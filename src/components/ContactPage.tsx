@@ -17,75 +17,69 @@ const ContactPage = () => {
         🌌 Contact 🦄
       </div>
 
+      {/* Flex Container for Contact Links */}
       <div className="flex justify-center gap-14 mt-16">
-        <Link href="https://www.linkedin.com/in/ranga-dharma-teja-kuntumalla-127b59239/">
-          <Image
-            src={linkedinLogo}
-            alt="Linkedin"
-            width={50}
-            style={{ objectFit: "contain", cursor: "pointer" }}
-            loading="lazy"
-          />
-        </Link>
-      </div>
-      <div className="flex justify-center gap-6 mb-8 mt-2">
-        <p>LinkedIn</p>
-      </div>
+        <div className="flex flex-col items-center">
+          <Link href="https://www.linkedin.com/in/ranga-dharma-teja-kuntumalla-127b59239/">
+            <Image
+              src={linkedinLogo}
+              alt="LinkedIn"
+              width={50}
+              style={{ objectFit: "contain", cursor: "pointer" }}
+              loading="lazy"
+            />
+          </Link>
+          <p>LinkedIn</p>
+        </div>
 
-      <div className="flex justify-center gap-14 mt-10">
-        <Link href="https://github.com/teja-86/">
-          <Image
-            src={githubLogo}
-            alt="GitHub"
-            width={50}
-            style={{ objectFit: "contain", cursor: "pointer" }}
-            loading="lazy"
-          />
-        </Link>
-      </div>
-      <div className="flex justify-center gap-6 mb-8 mt-2">
-        <p>GitHub</p>
-        
-      </div>
+        <div className="flex flex-col items-center">
+          <Link href="https://github.com/teja-86/">
+            <Image
+              src={githubLogo}
+              alt="GitHub"
+              width={50}
+              style={{ objectFit: "contain", cursor: "pointer" }}
+              loading="lazy"
+            />
+          </Link>
+          <p>GitHub</p>
+        </div>
 
-      {/*  */}
-      <div className="flex justify-center gap-14 mt-8">
-        <Link href="mailto:rangadharmateja0@gmail.com">
-          <Image
-            src={gmailLogo}
-            alt="Email Address"
-            width={50}
-            style={{ objectFit: "contain", cursor: "pointer" }}
-            loading="lazy"
-          />
-        </Link>
-        
-      </div>
-      
-      <div className="flex justify-center gap-16 mb-24 mt-1">
-        <p>Mail</p>
+        <div className="flex flex-col items-center">
+          <Link href="mailto:rangadharmateja0@gmail.com">
+            <Image
+              src={gmailLogo}
+              alt="Email Address"
+              width={50}
+              style={{ objectFit: "contain", cursor: "pointer" }}
+              loading="lazy"
+            />
+          </Link>
+          <p>Mail</p>
+        </div>
       </div>
 
       <div
-        className="text-center dark:text-white text-neutral-800 text-[2.5rem] mt-0 font-bold pt-32"
-        id="contact"
+        className="text-center dark:text-white text-neutral-800 text-[2.5rem] mt-24 font-bold"
+        id="coding-platform"
       >
         🥇 Coding Platform 👽
       </div>
+
+      {/* Flex Container for Coding Platform Links */}
       <div className="flex justify-center gap-14 mt-16">
-        <Link href="https://www.linkedin.com/in/ranga-dharma-teja-kuntumalla-127b59239/">
-          <Image
-            src={leetcodeLogo}
-            alt="Leetcode"
-            width={50}
-            style={{ objectFit: "contain", cursor: "pointer" }}
-            loading="lazy"
-          />
-        </Link>
-      </div>
-      <div className="flex justify-center gap-6 mb-8 mt-1">
-        <p>Leetcode </p>
-        
+        <div className="flex flex-col items-center">
+          <Link href="https://leetcode.com/">
+            <Image
+              src={leetcodeLogo}
+              alt="Leetcode"
+              width={50}
+              style={{ objectFit: "contain", cursor: "pointer" }}
+              loading="lazy"
+            />
+          </Link>
+          <p>Leetcode</p>
+        </div>
       </div>
 
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 left-0 blue__gradient" />
