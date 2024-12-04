@@ -1,4 +1,5 @@
-import React from "react";
+'use client';
+import React, {useState} from "react";
 import linkedinLogo from "../../public/assets/linkedin_logo.png";
 import leetcodeLogo from "../../public/assets/leetcode.png";
 import gmailLogo from "../../public/assets/gmail_logo.png";
@@ -6,8 +7,65 @@ import githubLogo from "../../public/assets/github.png";
 import art5 from "../../public/assets/art-5.webp";
 import Image from "next/image";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState("");
+
+  interface FormData {
+    name: string;
+    email: string;
+    phone: string;
+    message: string;
+  }
+
+  interface ChangeEvent {
+    target: {
+      name: string;
+      value: string;
+    };
+  }
+
+  const handleChange = (e: ChangeEvent) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  interface EmailJSResponseStatus {
+    text: string;
+  }
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    try {
+      const result: EmailJSResponseStatus = await emailjs.send(
+        "service_jvxxf3g", // Replace with your EmailJS service ID
+        "template_tpwgqoj", // Replace with your EmailJS template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        },
+        "-6BqiRLoMVf-PQJ3n" // Replace with your EmailJS public key
+      );
+      console.log(result.text);
+      setStatus("Email sent successfully!");
+    } catch (error) {
+      console.error("Failed to send email:", error);
+      setStatus("Failed to send email. Please try again.");
+    }
+  };
+
   return (
     <div className="relative">
       <div
@@ -70,7 +128,7 @@ const ContactPage = () => {
         <h2 className="text-2xl font-bold text-center text-gray-800 dark:text-white mb-8">
           Get in Touch  
         </h2>
-        <form className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label
@@ -83,6 +141,9 @@ const ContactPage = () => {
                 type="text"
                 id="name"
                 name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
                 className="text-black w-full p-2 mt-1 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Enter your name"
               />
@@ -98,6 +159,9 @@ const ContactPage = () => {
                 type="email"
                 id="email"
                 name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
                 className="text-black w-full p-2 mt-1 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Enter your email"
               />
@@ -114,6 +178,9 @@ const ContactPage = () => {
               type="text"
               id="phone"
               name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              required
               className="text-black w-full p-2 mt-1 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
               placeholder="Enter your phone number"
             />
@@ -129,6 +196,9 @@ const ContactPage = () => {
               id="message"
               name="message"
               rows={4}
+              value={formData.message}
+              onChange={handleChange}
+              required
               className=" text-black w-full p-2 mt-1 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
               placeholder="Write your message here"
             ></textarea>
@@ -142,6 +212,7 @@ const ContactPage = () => {
             </button>
           </div>
         </form>
+        {status && <p className="text-center mt-4 text-green-600">{status}</p>}
       </div>
 
       <div
