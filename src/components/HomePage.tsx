@@ -42,7 +42,7 @@ const HomePage: React.FC = () => {
             </span>
           </h1>
           <p className="mt-4 max-w-lg text-[#91a0b3] tracking-tight text-muted-foreground 2xl:text-xl">
-            A Full Stack Web Developer | MERN Stack and NextJs Specialist | AWS | CI/CD 
+            A Full Stack Web Developer | MERN Stack and NextJs Specialist | AWS | CI/CD | Passionate About Data Structures & Algorithms
           </p>
         </div>
         <div className="mt-10">
