@@ -68,7 +68,7 @@ const ContactPage = () => {
         }}
       >
         <h2 className="text-2xl font-bold text-center text-gray-800 dark:text-white mb-8">
-          Get in Touch
+          Get in Touch  
         </h2>
         <form className="space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
