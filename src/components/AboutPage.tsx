@@ -149,8 +149,15 @@ const AboutPage: React.FC = () => {
             <br /> -Data Structure & Algorithms <br />
             -Object Oriented Programming
             <br /> -Database Management
+            <br /> -Operating Systems
+            <br /> -Computer Networks
             <br />
-            
+            -Software Engineering
+            <br /> -Cloud Computing
+            <br /> -CI/CD (Continuous Integration & Continuous Deployment)
+            <br /> -AWS (Amazon Web Services)
+            <br /> -Competitive Programming
+            <br /> -Problem Solving            
           </div>
           <br />
           🙌 So, let's connect and share a few laughs while we navigate the tech
