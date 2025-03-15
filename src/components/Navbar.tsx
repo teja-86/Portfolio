@@ -34,6 +34,9 @@ const Navbar = ({ className }: { className?: string }) => {
               <HoveredLink href="https://nexuschat-1.onrender.com/">
                 NexusChat
               </HoveredLink>
+              <HoveredLink href="https://e-commerce-eight-blue.vercel.app/">
+                EdgeStore
+              </HoveredLink>
               <HoveredLink href="https://promptopia-liard-three.vercel.app/">
                 Promptopia
               </HoveredLink>
@@ -47,7 +50,7 @@ const Navbar = ({ className }: { className?: string }) => {
                 Portfolio
               </HoveredLink>
               <HoveredLink href="https://tangerine-figolla-123be9.netlify.app/">
-                ROYAL Trips
+                Royal Trips
               </HoveredLink>
               
             </div>

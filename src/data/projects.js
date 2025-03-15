@@ -5,6 +5,7 @@ import thumbnail_4 from "../../public/assets/AI Text Summarizer Project.png";
 import thumbnail_5 from "../../public/assets/RoyalTrips Project.jpg";
 import thumbnail_6 from '../../public/assets/NexusChat Project.jpg';
 import thumbnail_7 from '../../public/assets/Promptopia.jpg';
+import thumbnail_8 from '../../public/assets/E-Commerce Project.png';
 
 const projects = [
   
@@ -20,16 +21,25 @@ const projects = [
   {
     title: "NexusChat 💬",
     thumbnail: thumbnail_6,
-    techStack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Socket.io", "Zustand", "Multer", "Git", "GitHub", "Problem Solving"],
+    techStack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Socket.io", "Zustand", "Multer", "Git", "Problem Solving"],
     description:
       "NexusChat Application, a robust and scalable chat platform built using the MERN stack and powered by Socket.io for real-time communication. It enables users to engage in dynamic, real-time conversations with messages, group chats and user presence notifications.",
     github: "https://github.com/teja-86/NexusChat",
     live: "https://nexuschat-1.onrender.com/",
   },
   {
+    title: "EdgeStore 🛍️",
+    thumbnail: thumbnail_8,
+    techStack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git", "JWT", "Problem Solving"],
+    description:
+      "EdgeStore is designed to provide a seamless shopping experience with features such as product browsing, user authentication, shopping cart management, and order processing. The platform is built using the MERN stack to ensure high performance and maintainability.",
+    github: "https://github.com/teja-86/ECommerce",
+    live: "https://e-commerce-eight-blue.vercel.app",
+  },
+  {
     title: "Promptopia 🤖",
     thumbnail: thumbnail_7,
-    techStack: ["Next.js","React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git", "GitHub", "Problem Solving"],
+    techStack: ["Next.js","React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git", "Problem Solving"],
     description:
       "Promptopia is a cutting-edge Next.js application designed to revolutionize prompt generation and management for AI models. This project leverages the powerful features of Next.js to deliver a seamless and performant user experience, focusing on scalability, maintainability, and developer productivity.",
     github: "https://github.com/teja-86/Promptopia",
@@ -38,7 +48,7 @@ const projects = [
   {
     title: "CareerConnect Pro 👨🏻‍💻",
     thumbnail: crmlanding_thumbnail,
-    techStack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Firebase", "REST APIs", "Git", "GitHub", "Problem Solving"],
+    techStack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Firebase", "REST APIs", "Git", "Problem Solving"],
     description:
       "CareerConnect Pro is a sophisticated job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Firebase for authentication. It includes secure login, job listings, search filters, real-time notifications, and a responsive design, streamlining the job search and recruitment process for users.",
     github: "https://github.com/teja-86/CareerConnect-Pro",
@@ -47,7 +57,7 @@ const projects = [
   {
     title: "AI Text Summarizer 🤖",
     thumbnail: thumbnail_4,
-    techStack: ["HTML", "CSS", "JavaScript","Node.js", "Express.js", "Postman API"],
+    techStack: ["HTML", "CSS", "JavaScript","Node.js", "Express.js", "Postman API", "Git", "Problem Solving"],
     description:
       "The AI Text Summarizer is a web application designed to condense long pieces of text into concise and coherent summaries, leveraging the power of advanced machine learning models. This application aims to enhance productivity by providing quick insights from lengthy documents, articles, or any text-based content. The AI Text Summarizer App was built using Node.js and Express.js for the backend.",
     github: "https://github.com/teja-86/AI-Text-Summarizer",
@@ -56,7 +66,7 @@ const projects = [
   {
     title: "Portfolio Website ✨",
     thumbnail: portfolio_thumbnail,
-    techStack: ["Next.js", "React.js", "TailwindCSS", "TypeScript", "UI Design", "Git", "GitHub", "Problem Solving"],
+    techStack: ["Next.js", "React.js", "TailwindCSS", "TypeScript", "UI Design", "Git", "Problem Solving"],
     description:
       "A personal portfolio showcasing my projects and skills, providing an interactive platform for visitors to learn about my experience and expertise. This project demonstrates my proficiency in building complex web applications, implementing responsive designs, and ensuring a smooth user experience. It underscores my commitment to leveraging tech.",
     github: "https://github.com/teja-86/Portfolio",
@@ -65,7 +75,7 @@ const projects = [
   {
     title: "ROYAL Trips ✈️",
     thumbnail: thumbnail_5,
-    techStack: ["HTML", "CSS", "JavaScript", "Git", "gitHub", "Web Design"],
+    techStack: ["HTML", "CSS", "JavaScript", "JavaScript ES6" ,"Git", "Web Design", "API", "UI/UX" ,"Problem Solving"],
     description:
       "The RoyalTrips is a dynamic and interactive platform designed to provide users with comprehensive information about various tourist destinations. Built with modern web technologies, this project aims to offer a seamless and engaging user experience for travelers seeking destination guides, travel tips. Enjoy a seamless experience on any device.",
     github: "",

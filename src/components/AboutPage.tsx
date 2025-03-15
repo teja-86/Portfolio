@@ -73,7 +73,7 @@ const AboutPage: React.FC = () => {
         <br />
         <div className="w-[90%] sm:w-[80%] md:w-[80%] xl:w-[60%] my-14 text-2xl z-10 ">
           Hello, I'm a{" "}
-          <span className="text-green-300">Competitive Coder & Full-Stack Web Developer (MERN & NextJs)</span>, with expertise in AWS cloud services and CI/CD practices, which enhances my ability to deliver high-performance solutions and streamline development processes. Passionate about problem-solving with Java, I possess a strong understanding of Data Structures and Algorithms. My curiosity drives me to explore emerging technologies, and I am dedicated to building impactful web applications using the MERN stack. Committed to creating innovative solutions, I aim to address real-world challenges and help those around me. 
+          <span className="text-green-300">Competitive Coder & Full-Stack Web Developer (MERN & NextJs)</span>, with expertise in AWS cloud services and CI/CD practices, which enhances my ability to deliver high-performance solutions and streamline development processes. Passionate about problem-solving with Java, I possess a strong understanding of Data Structures and Algorithms. My curiosity drives me to explore emerging technologies, and I am dedicated to building impactful web applications using the MERN stack & NextJs. Committed to creating innovative solutions, I aim to address real-world challenges and help those around me. 
           <br />
           <br />
           <br />
